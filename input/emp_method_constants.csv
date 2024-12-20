@@ -1,0 +1,163 @@
+group_hanna,group_luscher,group_nelson,soil_group,ave_a0,input_limits,slope_1,intercept_1,slope_2,intercept_2,FDD_min,FDD_max,a1,a2,a3,a4,a5,a6,gs,method,sub_group,USCS_symbol_rep_or_calc
+High Plastic Soil,NA,NA,Fine-grained,0.067,100,1.587,-58.73,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Hanna et al. (1983),High Plastic Soil,CH
+High Plastic Soil,NA,NA,Fine-grained,0.067,100,1.587,-58.73,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Hanna et al. (1983),High Plastic Soil,CI
+High Plastic Soil,NA,NA,Fine-grained,0.067,100,1.587,-58.73,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Hanna et al. (1983),High Plastic Soil,CI-CH
+High Plastic Soil,NA,NA,Fine-grained,0.067,100,1.587,-58.73,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Hanna et al. (1983),High Plastic Soil,ICE+CI
+High Plastic Soil,NA,NA,Fine-grained,0.067,100,1.587,-58.73,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Hanna et al. (1983),High Plastic Soil,MH
+Gravel,NA,NA,Coarse-grained,0.011,23,1,-18,1.234,-23.377,NA,NA,NA,NA,NA,NA,NA,NA,NA,Hanna et al. (1983),Gravel,GC-SC
+Gravel,NA,NA,Coarse-grained,0.011,23,1,-18,1.234,-23.377,NA,NA,NA,NA,NA,NA,NA,NA,NA,Hanna et al. (1983),Gravel,GM
+Gravel,NA,NA,Coarse-grained,0.011,23,1,-18,1.234,-23.377,NA,NA,NA,NA,NA,NA,NA,NA,NA,Hanna et al. (1983),Gravel,SW or SP
+Low Plastic Fines,NA,NA,Fine-grained,0.039,41.5,0.6111,-19.8611,1.615,-61.538,NA,NA,NA,NA,NA,NA,NA,NA,NA,Hanna et al. (1983),Low Plastic Fines,CL
+Low Plastic Fines,NA,NA,Fine-grained,0.039,41.5,0.6111,-19.8611,1.615,-61.538,NA,NA,NA,NA,NA,NA,NA,NA,NA,Hanna et al. (1983),Low Plastic Fines,CL-CI
+Low Plastic Fines,NA,NA,Fine-grained,0.039,41.5,0.6111,-19.8611,1.615,-61.538,NA,NA,NA,NA,NA,NA,NA,NA,NA,Hanna et al. (1983),Low Plastic Fines,CL-ML
+Low Plastic Fines,NA,NA,Fine-grained,0.039,41.5,0.6111,-19.8611,1.615,-61.538,NA,NA,NA,NA,NA,NA,NA,NA,NA,Hanna et al. (1983),Low Plastic Fines,CL+ML
+Low Plastic Fines,NA,NA,Fine-grained,0.039,41.5,0.6111,-19.8611,1.615,-61.538,NA,NA,NA,NA,NA,NA,NA,NA,NA,Hanna et al. (1983),Low Plastic Fines,ML
+Low Plastic Fines,NA,NA,Fine-grained,0.039,41.5,0.6111,-19.8611,1.615,-61.538,NA,NA,NA,NA,NA,NA,NA,NA,NA,Hanna et al. (1983),Low Plastic Fines,ML or CL
+Low Plastic Fines,NA,NA,Fine-grained,0.039,41.5,0.6111,-19.8611,1.615,-61.538,NA,NA,NA,NA,NA,NA,NA,NA,NA,Hanna et al. (1983),Low Plastic Fines,ML or SM
+Low Plastic Fines,NA,NA,Fine-grained,0.039,41.5,0.6111,-19.8611,1.615,-61.538,NA,NA,NA,NA,NA,NA,NA,NA,NA,Hanna et al. (1983),Low Plastic Fines,SC
+Low Plastic Fines,NA,NA,Fine-grained,0.039,41.5,0.6111,-19.8611,1.615,-61.538,NA,NA,NA,NA,NA,NA,NA,NA,NA,Hanna et al. (1983),Low Plastic Fines,SC-CL
+Low Plastic Fines,NA,NA,Fine-grained,0.039,41.5,0.6111,-19.8611,1.615,-61.538,NA,NA,NA,NA,NA,NA,NA,NA,NA,Hanna et al. (1983),Low Plastic Fines,SM
+Low Plastic Fines,NA,NA,Fine-grained,0.039,41.5,0.6111,-19.8611,1.615,-61.538,NA,NA,NA,NA,NA,NA,NA,NA,NA,Hanna et al. (1983),Low Plastic Fines,SM-ML
+Low Plastic Fines,NA,NA,Fine-grained,0.039,41.5,0.6111,-19.8611,1.615,-61.538,NA,NA,NA,NA,NA,NA,NA,NA,NA,Hanna et al. (1983),Low Plastic Fines,SM or SC
+Low Plastic Fines,NA,NA,Fine-grained,0.039,41.5,0.6111,-19.8611,1.615,-61.538,NA,NA,NA,NA,NA,NA,NA,NA,NA,Hanna et al. (1983),Low Plastic Fines,SP
+Low Plastic Fines,NA,NA,Fine-grained,0.039,41.5,0.6111,-19.8611,1.615,-61.538,NA,NA,NA,NA,NA,NA,NA,NA,NA,Hanna et al. (1983),Low Plastic Fines,SP-SM
+Low Plastic Fines,NA,NA,Fine-grained,0.039,41.5,0.6111,-19.8611,1.615,-61.538,NA,NA,NA,NA,NA,NA,NA,NA,NA,Hanna et al. (1983),Low Plastic Fines,SW-SM/SC or SP-SM/SC
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Hanna et al. (1983),NA,ICE
+Organic Silt,NA,NA,Organic Soils,0.088,71.5,1.638,-86.805,2.446,-144.561,NA,NA,NA,NA,NA,NA,NA,NA,NA,Hanna et al. (1983),Organic Silt,OL
+Peat,NA,NA,Peat,1.43,80,1.944,-120.556,3.25,-225,NA,NA,NA,NA,NA,NA,NA,NA,NA,Hanna et al. (1983),Peat,PT
+Peat,NA,NA,Peat,1.43,80,1.944,-120.556,3.25,-225,NA,NA,NA,NA,NA,NA,NA,NA,NA,Hanna et al. (1983),Peat,PT-SM
+NA,NA,Clean Sand,Coarse-grained,NA,NA,NA,NA,NA,NA,1200,1700,-378.4,134,386,1443,-294,-8.3,2700,Nelson et al. (1983),Clean Sand,SP
+NA,NA,Clean Sand,Coarse-grained,NA,NA,NA,NA,NA,NA,1200,1700,-378.4,134,386,1443,-294,-8.3,2700,Nelson et al. (1983),Clean Sand,SW or SP
+NA,NA,Fat Clay,Fine-grained,NA,NA,NA,NA,NA,NA,1000,1400,342.8,-259.9,-12.3,-586.6,432.7,44.6,2700,Nelson et al. (1983),Fat Clay,CH
+NA,NA,Fat Clay,Fine-grained,NA,NA,NA,NA,NA,NA,1000,1400,342.8,-259.9,-12.3,-586.6,432.7,44.6,2700,Nelson et al. (1983),Fat Clay,CI
+NA,NA,Fat Clay,Fine-grained,NA,NA,NA,NA,NA,NA,1000,1400,342.8,-259.9,-12.3,-586.6,432.7,44.6,2700,Nelson et al. (1983),Fat Clay,CI-CH
+NA,NA,Fat Clay,Fine-grained,NA,NA,NA,NA,NA,NA,1000,1400,342.8,-259.9,-12.3,-586.6,432.7,44.6,2700,Nelson et al. (1983),Fat Clay,ICE+CI
+NA,NA,Lean Clay,Fine-grained,NA,NA,NA,NA,NA,NA,900,1600,287.5,-178.9,-14.9,-245.9,538.9,21.6,2700,Nelson et al. (1983),Lean Clay,CL
+NA,NA,Lean Clay,Fine-grained,NA,NA,NA,NA,NA,NA,900,1600,287.5,-178.9,-14.9,-245.9,538.9,21.6,2700,Nelson et al. (1983),Lean Clay,CL-CI
+NA,NA,Lean Clay,Fine-grained,NA,NA,NA,NA,NA,NA,900,1600,287.5,-178.9,-14.9,-245.9,538.9,21.6,2700,Nelson et al. (1983),Lean Clay,CL-ML
+NA,NA,Lean Clay,Fine-grained,NA,NA,NA,NA,NA,NA,900,1600,287.5,-178.9,-14.9,-245.9,538.9,21.6,2700,Nelson et al. (1983),Lean Clay,CL+ML
+NA,NA,ML Lowland,Fine-grained,NA,NA,NA,NA,NA,NA,400,900,398.5,27.7,-8.6,-8457.6,6897.9,-176.4,2650,Nelson et al. (1983),ML Lowland,MH
+NA,NA,ML Lowland,Fine-grained,NA,NA,NA,NA,NA,NA,400,900,398.5,27.7,-8.6,-8457.6,6897.9,-176.4,2650,Nelson et al. (1983),ML Lowland,ML
+NA,NA,ML Lowland,Fine-grained,NA,NA,NA,NA,NA,NA,400,900,398.5,27.7,-8.6,-8457.6,6897.9,-176.4,2650,Nelson et al. (1983),ML Lowland,ML or CL
+NA,NA,ML Upland,Fine-grained,NA,NA,NA,NA,NA,NA,400,1400,372.8,-169.6,-11.2,-3562.5,2430,-18.3,2700,Nelson et al. (1983),ML Upland,ML or SM
+NA,NA,Organics,Organic Soils,NA,NA,NA,NA,NA,NA,400,1100,88.9,-7.8,-0.35,1003.2,104.6,-21.7,2300,Nelson et al. (1983),Organics,OL
+NA,NA,Silty Gravel,Coarse-grained,NA,NA,NA,NA,NA,NA,1300,2100,320.4,-112.9,-105.8,-1307.2,120.4,12.5,2700,Nelson et al. (1983),Silty Gravel,GC-SC
+NA,NA,Silty Gravel,Coarse-grained,NA,NA,NA,NA,NA,NA,1300,2100,320.4,-112.9,-105.8,-1307.2,120.4,12.5,2700,Nelson et al. (1983),Silty Gravel,GM
+NA,NA,Silty Sand,Coarse-grained,NA,NA,NA,NA,NA,NA,600,1500,218,-164,2,1893.4,-253.1,31,2700,Nelson et al. (1983),Silty Sand,SC
+NA,NA,Silty Sand,Coarse-grained,NA,NA,NA,NA,NA,NA,600,1500,218,-164,2,1893.4,-253.1,31,2700,Nelson et al. (1983),Silty Sand,SC-CL
+NA,NA,Silty Sand,Coarse-grained,NA,NA,NA,NA,NA,NA,600,1500,218,-164,2,1893.4,-253.1,31,2700,Nelson et al. (1983),Silty Sand,SM
+NA,NA,Silty Sand,Coarse-grained,NA,NA,NA,NA,NA,NA,600,1500,218,-164,2,1893.4,-253.1,31,2700,Nelson et al. (1983),Silty Sand,SM-ML
+NA,NA,Silty Sand,Coarse-grained,NA,NA,NA,NA,NA,NA,600,1500,218,-164,2,1893.4,-253.1,31,2700,Nelson et al. (1983),Silty Sand,SM or SC
+NA,NA,Silty Sand,Coarse-grained,NA,NA,NA,NA,NA,NA,600,1500,218,-164,2,1893.4,-253.1,31,2700,Nelson et al. (1983),Silty Sand,SP-SM
+NA,NA,Silty Sand,Coarse-grained,NA,NA,NA,NA,NA,NA,600,1500,218,-164,2,1893.4,-253.1,31,2700,Nelson et al. (1983),Silty Sand,SW-SM/SC or SP-SM/SC
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Nelson et al. (1983),NA,ICE
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Nelson et al. (1983),NA,PT
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Nelson et al. (1983),NA,PT-SM
+NA,Clean Sand,NA,Coarse-grained,0.011,1760,-0.0391,70.8192,0,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,Luscher and Afifi (1973),Clean Sand,SP
+NA,Clean Sand,NA,Coarse-grained,0.011,1760,-0.0391,70.8192,0,2,NA,NA,NA,NA,NA,NA,NA,NA,NA,Luscher and Afifi (1973),Clean Sand,SW or SP
+NA,Silt,NA,Coarse-grained,0.011,1353.9,-0.06193,88.15101,0,4.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,Luscher and Afifi (1973),Silt,MH
+NA,Silt,NA,Coarse-grained,0.011,1353.9,-0.06193,88.15101,0,4.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,Luscher and Afifi (1973),Silt,ML
+NA,Silt,NA,Coarse-grained,0.011,1353.9,-0.06193,88.15101,0,4.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,Luscher and Afifi (1973),Silt,ML or CL
+NA,Silt,NA,Coarse-grained,0.011,1353.9,-0.06193,88.15101,0,4.3,NA,NA,NA,NA,NA,NA,NA,NA,NA,Luscher and Afifi (1973),Silt,ML or SM
+NA,Silty Sand,NA,Coarse-grained,0.011,1672.1,-0.03504,62.69266,0,4.1,NA,NA,NA,NA,NA,NA,NA,NA,NA,Luscher and Afifi (1973),Silty Sand,SC
+NA,Silty Sand,NA,Coarse-grained,0.011,1672.1,-0.03504,62.69266,0,4.1,NA,NA,NA,NA,NA,NA,NA,NA,NA,Luscher and Afifi (1973),Silty Sand,SC-CL
+NA,Silty Sand,NA,Coarse-grained,0.011,1672.1,-0.03504,62.69266,0,4.1,NA,NA,NA,NA,NA,NA,NA,NA,NA,Luscher and Afifi (1973),Silty Sand,SM
+NA,Silty Sand,NA,Coarse-grained,0.011,1672.1,-0.03504,62.69266,0,4.1,NA,NA,NA,NA,NA,NA,NA,NA,NA,Luscher and Afifi (1973),Silty Sand,SM-ML
+NA,Silty Sand,NA,Coarse-grained,0.011,1672.1,-0.03504,62.69266,0,4.1,NA,NA,NA,NA,NA,NA,NA,NA,NA,Luscher and Afifi (1973),Silty Sand,SM or SC
+NA,Silty Sand,NA,Coarse-grained,0.011,1672.1,-0.03504,62.69266,0,4.1,NA,NA,NA,NA,NA,NA,NA,NA,NA,Luscher and Afifi (1973),Silty Sand,SP-SM
+NA,Silty Sand,NA,Coarse-grained,0.011,1672.1,-0.03504,62.69266,0,4.1,NA,NA,NA,NA,NA,NA,NA,NA,NA,Luscher and Afifi (1973),Silty Sand,SW-SM/SC or SP-SM/SC
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Luscher and Afifi (1973),NA,CH
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Luscher and Afifi (1973),NA,CI
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Luscher and Afifi (1973),NA,CI-CH
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Luscher and Afifi (1973),NA,CL
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Luscher and Afifi (1973),NA,CL-CI
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Luscher and Afifi (1973),NA,CL-ML
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Luscher and Afifi (1973),NA,CL+ML
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Luscher and Afifi (1973),NA,GC-SC
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Luscher and Afifi (1973),NA,GM
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Luscher and Afifi (1973),NA,ICE
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Luscher and Afifi (1973),NA,ICE+CI
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Luscher and Afifi (1973),NA,OL
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Luscher and Afifi (1973),NA,PT
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Luscher and Afifi (1973),NA,PT-SM
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Nixon and Ladanyi (1987),NA,CH
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Nixon and Ladanyi (1987),NA,CI
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Nixon and Ladanyi (1987),NA,CI-CH
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Nixon and Ladanyi (1987),NA,CL
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Nixon and Ladanyi (1987),NA,CL-CI
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Nixon and Ladanyi (1987),NA,GC-SC
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Nixon and Ladanyi (1987),NA,GM
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Nixon and Ladanyi (1987),NA,ICE
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Nixon and Ladanyi (1987),NA,ICE+CI
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Nixon and Ladanyi (1987),NA,OL
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Nixon and Ladanyi (1987),NA,PT
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Nixon and Ladanyi (1987),NA,PT-SM
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Nixon and Ladanyi (1987),NA,SC
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Nixon and Ladanyi (1987),NA,SC-CL
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Nixon and Ladanyi (1987),NA,SM
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Nixon and Ladanyi (1987),NA,SM-ML
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Nixon and Ladanyi (1987),NA,SM or SC
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Nixon and Ladanyi (1987),NA,SP
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Nixon and Ladanyi (1987),NA,SP-SM
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Nixon and Ladanyi (1987),NA,SW-SM/SC or SP-SM/SC
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Nixon and Ladanyi (1987),NA,SW or SP
+NA,NA,NA,Fine-grained,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Nixon and Ladanyi (1987),Not Differentiated,CL-ML
+NA,NA,NA,Fine-grained,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Nixon and Ladanyi (1987),Not Differentiated,CL+ML
+NA,NA,NA,Fine-grained,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Nixon and Ladanyi (1987),Not Differentiated,MH
+NA,NA,NA,Fine-grained,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Nixon and Ladanyi (1987),Not Differentiated,ML
+NA,NA,NA,Fine-grained,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Nixon and Ladanyi (1987),Not Differentiated,ML or CL
+NA,NA,NA,Fine-grained,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Nixon and Ladanyi (1987),Not Differentiated,ML or SM
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ladanyi (1996),NA,CH
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ladanyi (1996),NA,CI
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ladanyi (1996),NA,CI-CH
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ladanyi (1996),NA,CL
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ladanyi (1996),NA,CL-CI
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ladanyi (1996),NA,GC-SC
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ladanyi (1996),NA,GM
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ladanyi (1996),NA,ICE
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ladanyi (1996),NA,ICE+CI
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ladanyi (1996),NA,OL
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ladanyi (1996),NA,PT
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ladanyi (1996),NA,PT-SM
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ladanyi (1996),NA,SP
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ladanyi (1996),NA,SW or SP
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ladanyi (1996),NA,CL-ML
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ladanyi (1996),NA,CL+ML
+NA,NA,NA,Coarse-grained,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ladanyi (1996),Not Differentiated,SC
+NA,NA,NA,Coarse-grained,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ladanyi (1996),Not Differentiated,SC-CL
+NA,NA,NA,Coarse-grained,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ladanyi (1996),Not Differentiated,SM
+NA,NA,NA,Coarse-grained,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ladanyi (1996),Not Differentiated,SM-ML
+NA,NA,NA,Coarse-grained,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ladanyi (1996),Not Differentiated,SM or SC
+NA,NA,NA,Coarse-grained,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ladanyi (1996),Not Differentiated,SP-SM
+NA,NA,NA,Coarse-grained,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ladanyi (1996),Not Differentiated,SW-SM/SC or SP-SM/SC
+NA,NA,NA,Coarse-grained,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ladanyi (1996),Not Differentiated,MH
+NA,NA,NA,Coarse-grained,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ladanyi (1996),Not Differentiated,ML
+NA,NA,NA,Coarse-grained,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ladanyi (1996),Not Differentiated,ML or CL
+NA,NA,NA,Coarse-grained,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Ladanyi (1996),Not Differentiated,ML or SM
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Speer et al. (1973),NA,GC-SC
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Speer et al. (1973),NA,GM
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Speer et al. (1973),NA,ICE
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Speer et al. (1973),NA,OL
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Speer et al. (1973),NA,PT
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Speer et al. (1973),NA,PT-SM
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Speer et al. (1973),NA,SP
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Speer et al. (1973),NA,SW or SP
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Speer et al. (1973),NA,SC
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Speer et al. (1973),NA,SC-CL
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Speer et al. (1973),NA,SM
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Speer et al. (1973),NA,SM-ML
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Speer et al. (1973),NA,SM or SC
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Speer et al. (1973),NA,SP-SM
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Speer et al. (1973),NA,SW-SM/SC or SP-SM/SC
+NA,NA,NA,Fine-grained,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Speer et al. (1973),Not Differentiated,CH
+NA,NA,NA,Fine-grained,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Speer et al. (1973),Not Differentiated,CI
+NA,NA,NA,Fine-grained,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Speer et al. (1973),Not Differentiated,CI-CH
+NA,NA,NA,Fine-grained,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Speer et al. (1973),Not Differentiated,CL
+NA,NA,NA,Fine-grained,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Speer et al. (1973),Not Differentiated,CL-CI
+NA,NA,NA,Fine-grained,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Speer et al. (1973),Not Differentiated,ICE+CI
+NA,NA,NA,Fine-grained,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Speer et al. (1973),Not Differentiated,CL-ML
+NA,NA,NA,Fine-grained,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Speer et al. (1973),Not Differentiated,CL+ML
+NA,NA,NA,Fine-grained,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Speer et al. (1973),Not Differentiated,MH
+NA,NA,NA,Fine-grained,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Speer et al. (1973),Not Differentiated,ML
+NA,NA,NA,Fine-grained,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Speer et al. (1973),Not Differentiated,ML or CL
+NA,NA,NA,Fine-grained,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Speer et al. (1973),Not Differentiated,ML or SM

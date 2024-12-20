@@ -1,0 +1,28 @@
+USCS_symbol_rep_or_calc,group_hanna,group_nelson,group_luscher,group_nixon,group_ladanyi,group_speer
+CH,High Plastic Soil,Fat Clay,NO,NO,NO,YES
+CI,High Plastic Soil,Fat Clay,NO,NO,NO,YES
+CI-CH,High Plastic Soil,Fat Clay,NO,NO,NO,YES
+CL,Low Plastic Fines,Lean Clay,NO,NO,NO,YES
+CL-CI,Low Plastic Fines,Lean Clay,NO,NO,NO,YES
+CL-ML,Low Plastic Fines,Lean Clay,NO,YES,NO,YES
+CL+ML,Low Plastic Fines,Lean Clay,NO,YES,NO,YES
+GC-SC,Gravel,Silty Gravel,NO,NO,NO,NO
+GM,Gravel,Silty Gravel,NO,NO,NO,NO
+ICE,NO,NO,NO,NO,NO,NO
+ICE+CI,High Plastic Soil,Fat Clay,NO,NO,NO,YES
+MH,High Plastic Soil,ML Lowland,Silt,YES,YES,YES
+ML,Low Plastic Fines,ML Lowland,Silt,YES,YES,YES
+ML or CL,Low Plastic Fines,ML Lowland,Silt,YES,YES,YES
+ML or SM,Low Plastic Fines,ML Upland,Silt,YES,YES,YES
+OL,Organic Silt,Organics,NO,NO,NO,NO
+PT,Peat,NO,NO,NO,NO,NO
+PT-SM,Peat,NO,NO,NO,NO,NO
+SC,Low Plastic Fines,Silty Sand,Silty Sand,NO,YES,NO
+SC-CL,Low Plastic Fines,Silty Sand,Silty Sand,NO,YES,NO
+SM,Low Plastic Fines,Silty Sand,Silty Sand,NO,YES,NO
+SM-ML,Low Plastic Fines,Silty Sand,Silty Sand,NO,YES,NO
+SM or SC,Low Plastic Fines,Silty Sand,Silty Sand,NO,YES,NO
+SP,Low Plastic Fines,Clean Sand,Clean Sand,NO,NO,NO
+SP-SM,Low Plastic Fines,Silty Sand,Silty Sand,NO,YES,NO
+SW-SM/SC or SP-SM/SC,Low Plastic Fines,Silty Sand,Silty Sand,NO,YES,NO
+SW or SP,Gravel,Clean Sand,Clean Sand,NO,NO,NO
