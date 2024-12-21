@@ -51,6 +51,9 @@ install.packages(c("readr", "dplyr", "ggplot2", "cowplot", "webr", "tidyr", "sf"
    - **Figures and Tables**: Saved in figures and tables/.
    - **Processed Datasets/**: Saved in final datasets/.
 
+## Pre-generated Outputs
+This repository includes pre-generated outputs (figures, tables, and datasets) for convenience. Users can reproduce these results by following the steps outlined in the repository.
+
 ## Citation
 If you use this repository in your work, please cite:
 Mohammadi, Z., Hayley, J. L. (2024). Permafrost Thaw Settlement Dataset (Version 1.1.0). Zenodo. [https://zenodo.org/records/14532651](https://zenodo.org/records/14532651)

@@ -1,0 +1,10 @@
+"var","soil_group","sample_size","min","max","mean","sd","cov","skewness"
+"Gravimetric Water Content","Coarse-grained",108,15.56,120.29,42.72,23.47,54.9,1.4
+"Gravimetric Water Content","Fine-grained",234,12,513.4,59.78,63.67,106.5,4.22
+"Gravimetric Water Content","Peat",74,117.6,2322,1006.2,499.03,49.6,0.4
+"Frozen Bulk Density","Coarse-grained",108,1151,2020.3,1677.56,212.67,12.7,-0.58
+"Frozen Bulk Density","Fine-grained",234,866.6,2087.2,1648.12,257.71,15.6,-0.71
+"Frozen Bulk Density","Peat",74,608.7,1102.1,907.9,76.32,8.4,-1.2
+"Frozen Void Ratio","Coarse-grained",108,0.52,3.95,1.36,0.75,55.1,1.33
+"Frozen Void Ratio","Fine-grained",234,0.43,17.77,1.85,2.07,111.9,4.63
+"Frozen Void Ratio","Peat",74,1.99,39.41,17.77,8.67,48.8,0.43

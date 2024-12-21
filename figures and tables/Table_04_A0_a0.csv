@@ -1,0 +1,13 @@
+"soil_group","ice_level","q_10","q_90","mean","sd","cov","ske"
+"Coarse-grained","Ice-rich",13.1,50.2,27.6,14.4,52.2,0.76
+"Coarse-grained","Ice-poor",2.6,12.1,7.8,5.2,66.7,1.62
+"Fine-grained","Ice-rich",13.9,52.2,32.6,15,46,0.51
+"Fine-grained","Ice-poor",-1,12.6,4.6,6.1,132.6,1.6
+"Peat","Ice-poor",-0.4,46.6,25.5,16.2,63.5,0.03
+"Peat","Ice-rich",33.4,58.5,45.7,10.9,23.9,0.34
+"Coarse-grained","Ice-rich",0.021,0.063,0.042,0.019,45.2,1.17
+"Coarse-grained","Ice-poor",0.024,0.096,0.057,0.031,54.4,1.1
+"Fine-grained","Ice-rich",0.031,0.118,0.076,0.046,60.5,2.09
+"Fine-grained","Ice-poor",0.029,0.114,0.076,0.033,43.4,0.48
+"Peat","Ice-poor",0.194,0.575,0.388,0.154,39.7,0.55
+"Peat","Ice-rich",0.167,0.439,0.312,0.175,56.1,2.71

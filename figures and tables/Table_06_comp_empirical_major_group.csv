@@ -1,0 +1,14 @@
+"soil_group","method","count","RMSD_e_logP","Bias_e_logP"
+"Coarse-grained","Hannan et al. (1983)",107,15.18,-9.99
+"Coarse-grained","Ladanyi (1996)",107,12.03,-5.07
+"Coarse-grained","Luscher & Afifi (1973)",106,23.16,-19.46
+"Coarse-grained","Nelson et al. (1983)",107,12.75,-4.62
+"Coarse-grained","Nixon and Ladanyi (1978)",107,11.75,1.89
+"Coarse-grained","Speer et al. (1973)",107,12.36,2.37
+"Fine-grained","Hannan et al. (1983)",234,13.18,-5.5
+"Fine-grained","Ladanyi (1996)",224,10.17,-4.48
+"Fine-grained","Luscher & Afifi (1973)",95,19.22,-25.05
+"Fine-grained","Nelson et al. (1983)",234,16.19,-3.88
+"Fine-grained","Nixon and Ladanyi (1978)",222,8.78,2.14
+"Fine-grained","Speer et al. (1973)",234,10.65,3.15
+"Peat","Hannan et al. (1983)",68,22.66,-18.18

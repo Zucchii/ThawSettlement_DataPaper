@@ -1,0 +1,15 @@
+"method","sub_group","count","RMSD_e_logP","Bias_e_logP"
+"Hannan et al. (1983)","Peat",68,22.66,-18.18
+"Hannan et al. (1983)","Organic Silt",8,28,-16.15
+"Hannan et al. (1983)","High Plastic Soil",117,11.28,-3.92
+"Hannan et al. (1983)","Low Plastic Fines",214,14.56,-8.39
+"Hannan et al. (1983)","Gravel",7,6.59,4.76
+"Luscher & Afifi (1973)","Silt",96,30.15,-25.09
+"Luscher & Afifi (1973)","Silty Sand",98,23.67,-19.71
+"Luscher & Afifi (1973)","Clean Sand",8,17.58,-16.38
+"Nelson et al. (1983)","Organics",8,13.75,-1.12
+"Nelson et al. (1983)","Fat Clay",102,11.93,-8.53
+"Nelson et al. (1983)","Lean Clay",33,10.94,-3.64
+"Nelson et al. (1983)","ML Lowland",95,21.06,1.06
+"Nelson et al. (1983)","Silty Sand",98,12.18,-3.51
+"Nelson et al. (1983)","Clean Sand",8,18.69,-17.87
