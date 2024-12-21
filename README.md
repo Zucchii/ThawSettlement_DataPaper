@@ -1,6 +1,6 @@
 # ThawSettlement_DataPaper
 
-Reproducible R code and instructions accompanying the Permafrost Thaw Settlement Dataset on Zenodo ([https://zenodo.org/records/14532651](https://zenodo.org/records/14532651)) and an accompanying data paper submitted to _Earth System Science Data_. It includes scripts for data processing, analysis, and figure generation.
+Reproducible R code and instructions accompanying the Permafrost Thaw Settlement Dataset on Zenodo ([![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14538524.svg)](https://doi.org/10.5281/zenodo.14538524)) and an accompanying data paper submitted to _Earth System Science Data_. It includes scripts for data processing, analysis, and figure generation.
 
 ## Repository Structure
 - **`input/`**:
