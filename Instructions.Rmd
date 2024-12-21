@@ -32,7 +32,12 @@ This supplementary material includes R scripts, input data, and instructions req
 - **Instructions.txt**: This file.
 
 # Steps to Run the Code
-1. Copy the entire `Codes and Inputs` folder to your local system.
+1. **Clone the ThawSettlement_DataPaper on yor local system.**
+
+   ```bash
+   git clone https://github.com/username/repository-name.git
+
+   ```
 
 2. **Set the Working Directory**:
    Set your working directory to the folder containing the `R scripts` and `input` directories. Example:
