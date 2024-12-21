@@ -56,7 +56,8 @@ This repository includes pre-generated outputs (figures, tables, and datasets) f
 
 ## Citation
 If you use this repository in your work, please cite:
-Mohammadi, Z., Hayley, J. L. (2024). Permafrost Thaw Settlement Dataset (Version 1.1.0). Zenodo. [https://zenodo.org/records/14532651](https://zenodo.org/records/14532651)
+Mohammadi, Z., Hayley, J. L. (2024). Permafrost Thaw Settlement Dataset (Version 1.1.0). Zenodo. [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14538524.svg)](https://doi.org/10.5281/zenodo.14538524)
+
 
 ## Notes
 - **Ensure the working directory is correctly set before running the scripts.**
