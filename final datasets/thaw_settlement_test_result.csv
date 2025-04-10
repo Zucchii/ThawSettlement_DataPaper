@@ -1,4 +1,4 @@
-"unique_id","loading_step_number","sigma_v","deformation","strain","void_ratio"
+"test_id","loading_step_number","sigma_v","deformation","strain","void_ratio"
 "CEN-001",1,25,39.15,34.2,0.242
 "CEN-001",2,50,42.38,37,0.189
 "CEN-001",3,100,45.16,39.4,0.144

@@ -2,6 +2,16 @@
 
 Reproducible R code and instructions accompanying the Permafrost Thaw Settlement Dataset on Zenodo ([![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14538524.svg)](https://doi.org/10.5281/zenodo.14538524)) and an accompanying data paper submitted to _Earth System Science Data_. It includes scripts for data processing, analysis, and figure generation.
 
+## R Version and Environment
+
+This project was developed and tested using:
+
+- **R version**: 4.4.2 (2024-10-31 ucrt)
+- **Platform**: x86_64-w64-mingw32/x64
+- **Operating System**: Windows 11 x64 (build 26100)
+
+To improve reproducibility, we recommend using a similar R version or using a package management system such as  [`renv`](https://rstudio.github.io/renv/).
+
 ## Repository Structure
 - **`input/`**:
   - `raw_borehole_locations_and_sources.csv`: Borehole location data and sources.
@@ -38,7 +48,10 @@ setwd("path/to/repository")
 3. **Install Required R Packages**: Run the following in R to install all required packages:
 
 ```r
-install.packages(c("readr", "dplyr", "ggplot2", "cowplot", "webr", "tidyr", "sf"))
+install.packages(c(
+  "readr", "dplyr", "ggplot2", "cowplot", "webr", "tidyr",
+  "sf", "tibble", "moments", "canadianmaps", "languageserver"
+))
 ```
 
 4. **Run the Scripts**: Excute R scripts in order

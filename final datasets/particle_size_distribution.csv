@@ -1,4 +1,4 @@
-"unique_id","sample_name","particle_size","pct_passing"
+"test_id","sample_name","particle_size","pct_passing"
 "NESCL-014","2A-1-8_1",0.8396,98.7
 "NESCL-014","2A-1-8_1",0.4114,98.3
 "NESCL-014","2A-1-8_1",0.149,91.2

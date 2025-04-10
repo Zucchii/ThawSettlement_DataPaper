@@ -15,7 +15,7 @@ library(tibble) # For working with data frames
 # Constants and Configurations ----
 system_base_dir <- gsub("\\\\", "/", normalizePath(file.path(getwd(), "..")))
 
-project_dir <- file.path(system_base_dir, "Codes and Inputs")
+project_dir <- file.path(system_base_dir, "ThawSettlement_DataPaper")
 output_dir <- file.path(project_dir, "final datasets")
 fig_save_dir <- file.path(project_dir, "figures and tables")
 
@@ -152,8 +152,9 @@ fig_1 <- fig_1_df %>%
   geom_segment(aes(x = 0, xend = 18, y = 0.85, yend = 0.85), linetype = "dashed") +
   scale_x_continuous(expand = c(0, 0), limits = c(0, 35)) +
   scale_y_continuous(expand = c(0, 0), limits = c(0, 3.5))
-
-save_figure(fig_1, "Fig_01_dp.jpg", fig_save_dir, 4, 4)
+  
+  
+  save_figure(fig_1, "Fig_01_dp.jpg", fig_save_dir, 4, 4)
 
 # Fig_2: Typical Test Result ----
 
@@ -367,6 +368,7 @@ Fig_5_dp <- plot_grid(
 save_figure(Fig_5_dp, "Fig_05_dp.jpg", fig_save_dir, width = 10, height = 3.5)
 
 
+
 # Fig_6: Soil Groups (Pie chart) ----
 
 # Prepare data for the plot
@@ -387,8 +389,10 @@ fig_6 <- PieDonut(
   showPieName = FALSE
 )
 
+
 # Save the Plot
 save_figure(fig_6, "Fig_06_dp.jpg", fig_save_dir, width = 5, height = 5)
+
 
 # Export the data to a CSV file
 write.csv(pie_donut_data, file.path(fig_save_dir, "pie_donut_data.csv"), row.names = FALSE)
@@ -908,6 +912,7 @@ summarize_index_properties <- function(data, variable, variable_name, group_col)
 # Generate Tables
 table_2_dp_wc <- summarize_index_properties(pts_df, gravimetric_wc_init, "Gravimetric Water Content", soil_group)
 table_2_dp_fbd <- summarize_index_properties(pts_df, frozen_bulk_density_rep, "Frozen Bulk Density", soil_group)
+
 table_2_dp_ef <- summarize_index_properties(pts_df, frozen_void_ratio_calc, "Frozen Void Ratio", soil_group)
 
 # Combine Tables
@@ -1139,3 +1144,4 @@ Figure_A_1 <- plot_grid(
 
 # Save the figure
 save_figure(Figure_A_1, "Figure_A_1.jpg", fig_save_dir, width = 8, height = 6.5)
+

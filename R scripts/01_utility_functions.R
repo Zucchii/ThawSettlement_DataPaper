@@ -187,7 +187,7 @@ create_filtered_test_results <- function(data) {
   test_all <- list()
   for (i in 1:nrow(data)) {
     test_data <- data.frame(
-      unique_id = rep(data$unique_id[i], each = 7),
+      test_id = rep(data$test_id[i], each = 7),
       loading_step_number = 1:7,
       sigma_v = c(data$sigma_v_1[i], data$sigma_v_2[i], data$sigma_v_3[i], data$sigma_v_4[i], data$sigma_v_5[i], data$sigma_v_6[i], data$sigma_v_7[i]),
       deformation = c(data$delta_h_1[i], data$delta_h_2[i], data$delta_h_3[i], data$delta_h_4[i], data$delta_h_5[i], data$delta_h_6[i], data$delta_h_7[i]),
@@ -198,7 +198,7 @@ create_filtered_test_results <- function(data) {
     if (nrow(test_data) > 0) test_all[[i]] <- test_data
   }
   test_all_df <- do.call(rbind, test_all)
-  test_all_df <- test_all_df[order(test_all_df$unique_id, test_all_df$sigma_v), ]
+  test_all_df <- test_all_df[order(test_all_df$test_id, test_all_df$sigma_v), ]
 
   # Assign the outputs to global variables
   assign("test_all", test_all, envir = .GlobalEnv)
@@ -489,3 +489,5 @@ summarize_data <- function(data, variable, group_by_var) {
       .by = {{ group_by_var }}
     )
 }
+
+

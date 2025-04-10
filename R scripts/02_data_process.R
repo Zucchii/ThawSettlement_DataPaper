@@ -18,7 +18,7 @@ system_base_dir <- gsub("\\\\", "/", normalizePath(file.path(getwd(), "..")))
 # Change the system_base_dir to you local path
 
 
-project_dir <- file.path(system_base_dir, "Codes and Inputs")
+project_dir <- file.path(system_base_dir, "ThawSettlement_DataPaper")
 output_dir <- file.path(project_dir, "final datasets")
 input_dir <- file.path(project_dir, "input")
 
@@ -39,15 +39,15 @@ message("All datasets loaded successfully.")
 # Check particle size consistency
 grain_size_ids <- init_df_0 %>%
   filter(grain_size_curve == TRUE) %>%
-  pull(unique_id) %>%
+  pull(test_id) %>%
   unique()
 
-missing_ids_in_grain_size <- setdiff(particle_size_df$unique_id, grain_size_ids)
+missing_ids_in_grain_size <- setdiff(particle_size_df$test_id, grain_size_ids)
 
 if (length(missing_ids_in_grain_size) == 0) {
-  message("All unique_id in particle_size_df are consistent with init_df_0 (grain_size_curve == TRUE).")
+  message("All test_id in particle_size_df are consistent with init_df_0 (grain_size_curve == TRUE).")
 } else {
-  warning("The following unique_id in particle_size_df are missing in init_df_0:")
+  warning("The following test_id in particle_size_df are missing in init_df_0:")
   print(missing_ids_in_grain_size)
 }
 
@@ -70,7 +70,7 @@ raw_data_path <- file.path(project_dir, "input", "raw_data.csv")
 init_df_0 <- load_raw_data(raw_data_path)
 
 # Step 2: Convert to factors and process data ----
-factor_cols <- c("prim_source", "soil_group", "reported_test_result_type", "source", "data_quality_flag")
+factor_cols <- c("prim_source", "soil_group", "reported_test_result_type","source_id", "data_source", "data_quality_flag")
 init_df_0 <- convert_to_factors(init_df_0, factor_cols)
 init_df_0 <- add_calculated_variables(init_df_0)
 init_df_0 <- calculate_loading_steps(init_df_0)
@@ -127,7 +127,7 @@ var_to_remove_names <- c(
   paste0("e_", 1:7, "_calc"),
   paste0("epsilon_", 1:7, "_calc"),
   paste0("delta_h_", 1:7),
-  "source"
+  "data_source"
 )
 
 # Remove specified columns
@@ -136,7 +136,7 @@ pts_df_01 <- init_df_0[, !(names(init_df_0) %in% var_to_remove_names)]
 
 # Define the column order for the PTS dataset
 col_names_pts <- c(
-  "unique_id", "prim_source", "borehole", "sample_name", "test_name",
+  "test_id", "prim_source", "borehole", "sample_name", "test_name",
   "top", "bottom", "grain_size_curve", "mass_fraction_of_gravel_in_soil",
   "mass_fraction_of_sand_in_soil", "mass_fraction_of_silt_in_soil",
   "mass_fraction_of_clay_in_soil", "mass_fraction_of_fines_in_soil",
@@ -152,7 +152,7 @@ col_names_pts <- c(
   "sigma_v_max", "num_of_swelling_loading_step", "swelling_flag",
   "A0", "a0", "R_sq", "Cc", "sigma_v_th", "e_th",
   "R_sq_semilog", "ice_level", "phase_change_strain", "excess_water_strain",
-  "soil_compression_strain_at_100_kpa", "total_strain_at_100_kpa", "data_quality_flag", "note"
+  "soil_compression_strain_at_100_kpa", "total_strain_at_100_kpa", "data_quality_flag", "note","source_id"
 )
 
 # Select and order columns based on the defined list
@@ -309,6 +309,7 @@ pts_emp_init_1 <- pts_emp_init_1 %>%
     epsilon_sigma_v_e_logP_50 = (frozen_void_ratio_calc - e_th + (Cc * log10(sigma_v_th / 50))) * 100 / (1 + frozen_void_ratio_calc),
     epsilon_sigma_v_e_logP_in_situ = (frozen_void_ratio_calc - e_th + (Cc * log10(sigma_v_th / in_situ_sigma_v))) * 100 / (1 + frozen_void_ratio_calc),
   )
+
 pts_emp_init_1$epsilon_sigma_v_e_logP_in_situ
 
 
@@ -330,7 +331,7 @@ pts_emp_init <- merge(
 
 # Process Speer, Nixon, and Ladanyi
 df_0 <- pts_emp_init %>%
-  select(1:114, group_speer, group_nixon, group_ladanyi, USCS_symbol_rep_or_calc) %>%
+  select(1:114, epsilon_sigma_v_e_logP_in_situ, group_speer, group_nixon, group_ladanyi, USCS_symbol_rep_or_calc) %>%
   mutate(
     speer_strain = 73.6 - 101.8 * log(frozen_bulk_density_rep * 0.001),
     nixon_strain = 90 - 86.8 * ((frozen_bulk_density_rep * 0.001 - 1.15)^0.5),
@@ -404,11 +405,11 @@ df_3 <- merge(
   )
 
 # Combining processed dataframes into a unified one
-# Step 1: Sort each data frame by `unique_id`
-df_0 <- df_0 %>% arrange(unique_id)
-df_1 <- df_1 %>% arrange(unique_id)
-df_2 <- df_2 %>% arrange(unique_id)
-df_3 <- df_3 %>% arrange(unique_id)
+# Step 1: Sort each data frame by `test_id`
+df_0 <- df_0 %>% arrange(test_id)
+df_1 <- df_1 %>% arrange(test_id)
+df_2 <- df_2 %>% arrange(test_id)
+df_3 <- df_3 %>% arrange(test_id)
 
 # Step 2: Select only necessary columns from df_1, df_2, and df_3
 df_1_clean <- df_1 %>% select(-c(2:115)) # Keep all rows and remove only unnecessary columns
@@ -435,3 +436,4 @@ pts_emp_calculated <- pts_emp_calculated %>%
 # Save final dataframe
 output_file <- file.path(project_dir, "final datasets", "emp_method_final_df.csv")
 write.csv(pts_emp_calculated, output_file, row.names = FALSE)
+
